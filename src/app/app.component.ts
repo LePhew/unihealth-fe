@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'unihealth-fe';
+  title: string = 'unihealth-fe';
+
+  constructor() { }
+
+  ngOnInit(): void {
+
+  }
+
 }
